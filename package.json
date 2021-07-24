@@ -1,0 +1,17 @@
+{
+  "name": "esmdefender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server dist",
+    "build": "cp -r src/* dist & cp index.js dist & cp index.html dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy": "^0.3.2",
+    "live-server": "^1.2.1"
+  }
+}
